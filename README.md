@@ -1,24 +1,129 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Rails React App 
 
-* Ruby version
 
-* System dependencies
+> In this project I have setup RoR + React project as one app using the react-rails gem
 
-* Configuration
+## Built With
 
-* Database creation
+- Ruby on Rails
+- React
+- Redux
+- Git - Github - GitFlow
 
-* Database initialization
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+To get a local copy up and running follow these simple steps.
 
-* ...
+
+### Prerequisites
+
+
+- Visual Studio Code or Sublime Text
+
+- Git
+
+- LiveServer Extension
+
+
+### Setup
+
+
+Go to the top of the page, press te green button that says "Code", and copy the link. Then you have to go to your console and type " git clone 'repository-url.com' ".
+
+
+- Next step: Go to usage section!
+
+
+
+### Install
+
+
+No extra dependencies needed to use the code!
+
+
+### Test
+
+
+- Ruby Linters 
+
+
+```
+
+rubocop
+
+```
+
+
+- Css Linters
+
+
+```
+
+npx stylelint "**/*.{css,scss}"
+
+```
+
+- Rspec Test Tool
+
+``` 
+
+rspec spec/
+
+```
+
+
+### Usage
+
+
+- Once you clone the repository:
+
+
+
+```
+
+cd repository-clone
+
+bundle install
+npm install
+
+rails db:create
+
+rails db:migrate
+
+rails s
+
+```
+
+
+You are ready to go!
+
+
+## Authors
+
+
+👤 **Emmanuel Ogah**
+
+- GitHub: [@Emmy-github-webdev](https://github.com/Emmy-github-webdev)
+
+- LinkedIn: [@emmanuelogaho](https://www.linkedin.com/in/emmanuelogaho)
+
+
+## 🤝 Contributing
+
+
+Contributions, issues, and feature requests are welcome!
+
+
+## Show your support
+
+
+Give a ⭐️ if you like this project! 😄
+
+
+## Acknowledgments
+ 
